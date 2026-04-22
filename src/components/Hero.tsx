@@ -49,7 +49,7 @@ export default function Hero({ onOpenBooking }: HeroProps) {
         >
           <div className="hero-illustration">
             <div className="image-frame">
-              <img src="/hero.jpg.jpeg" alt="Crianças brincando juntas no quintal" className="hero-img" />
+              <img src={`${import.meta.env.BASE_URL}hero.jpg.jpeg`} alt="Crianças brincando juntas no quintal" className="hero-img" />
             </div>
             <div className="floating-card card-1">
               <span>⭐ Ambiente Acolhedor</span>
